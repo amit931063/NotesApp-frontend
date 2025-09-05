@@ -1,7 +1,7 @@
 // src/api/notesApi.js
 import axios from 'axios';
 
-const API_URL = 'http://172.18.3.145:8080/api'; // Replace with your Spring Boot backend URL
+const API_URL = 'http://notesapp-production-78a8.up.railway.app:8080/api'; // Replace with your Spring Boot backend URL
 
 const api = axios.create({
   baseURL: API_URL,
